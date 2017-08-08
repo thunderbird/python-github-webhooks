@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cd ~/thundernest-ansible && source files/secrets.sh && ansible-playbook --extra-vars="var_hosts=webheads branch=prod" plays/website-build.yml
