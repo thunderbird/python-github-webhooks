@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cd ~/thundernest-ansible && source files/secrets.sh && ansible-playbook --extra-vars="message='Pontoon l10n update.'" plays/website-build.yml
