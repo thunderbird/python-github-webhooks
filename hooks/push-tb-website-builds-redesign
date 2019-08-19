@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cd ~/thundernest-ansible && ansible-playbook --extra-vars="var_hosts=redesign branch=redesign" plays/start-deploy.yml
