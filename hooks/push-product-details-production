@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cd ~/thundernest-ansible && source files/secrets.sh && ansible-playbook --extra-vars="branch=prod message='product details update.'" plays/website-build.yml

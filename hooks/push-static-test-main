@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cd ~/thundernest-ansible && ansible-playbook --extra-vars="var_hosts=stage branch=main" plays/static-test-deploy.yml
