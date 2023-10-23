@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cd ~/thundernest-ansible && ansible-playbook --extra-vars="var_hosts=stage branch=master" plays/style-deploy.yml
+cd ~/thunderbird-ansible && ansible-playbook --extra-vars="var_hosts=stage branch=master" plays/style-deploy.yml
